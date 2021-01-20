@@ -15,6 +15,9 @@ main  {
     margin: 20px auto;
     display: flex;
   }
+.photo {
+    width: 150px;
+}
 .flex {
     display: flex;
     flex-flow: row wrap;
@@ -22,9 +25,19 @@ main  {
   }
 .flexR {
     flex-direction: row;
+    flex-wrap: nowrap;
 }
 .flexC {
     flex-direction: column;
+}
+.grid33 {
+    width: 33%;
+}
+.grid66 {
+    width: 66%;
+}
+.grid99 {
+    width: 99%;
 }
 .item {
     width: 25%;
