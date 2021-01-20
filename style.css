@@ -7,13 +7,13 @@ body {
     color: white;
 }
 header {
-    width: 75%;
+    width:65%;
     display: flex;
     margin: auto;
     border-bottom: solid 2px white;
 }
 main  {
-    width: 75%;
+    width: 65%;
     background-color: white;
     margin: 20px auto;
     display: flex;
