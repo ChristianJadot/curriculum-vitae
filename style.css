@@ -8,6 +8,9 @@ body {
 }
 header {
     width: 75%;
+    display: flex;
+    margin: auto;
+    border-bottom: solid 2px white;
 }
 main  {
     width: 75%;
@@ -16,7 +19,7 @@ main  {
     display: flex;
   }
 .photo {
-    width: 150px;
+    width: 200px;
 }
 .flex {
     display: flex;
@@ -39,13 +42,12 @@ main  {
 .grid99 {
     width: 99%;
 }
-.item {
-    width: 25%;
-  }
-.item2 {
-    width: 25%;
-    background-color: gray;
+.alignL {
+  text-align: left;
 }
-  .item {
-      width: 25%;
-    }
+.alignR {
+  text-align: right;
+}
+.alignC {
+  text-align: center;
+}
