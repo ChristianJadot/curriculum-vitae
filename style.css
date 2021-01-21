@@ -49,6 +49,9 @@ main section ul li::before {
 .photo {
     width: 200px;
 }
+.bg-info {
+  background-color: #1757b8 !important;
+}
 .alignL {
   text-align: left;
 }
