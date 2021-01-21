@@ -8,7 +8,6 @@ body {
 }
 header {
     width:60%;
-    display: flex;
     margin: auto;
     border-bottom: solid 2px white;
 }
@@ -43,58 +42,12 @@ main section ul li::before {
   width: 0.8em;
   margin-left: -1em;
 }
-section {
-
-}
 .container {
     width: 60%;
     margin: auto;
 }
-.conteneur {
-    width: 60%;
-    margin: auto;
-}
-.element1 {
-    background-color: rgb(41, 64, 192);
-}
-.element2 {
-    background-color: rgb(16, 167, 41);
-}
-.element3 {
-    background-color: rgb(170, 12, 104);
-}
-.left {
-    display: block;
-    float: left;
-}
-.right {
-    display: block;
-    float: right;
-}
 .photo {
     width: 200px;
-}
-.flex {
-    display: flex;
-    flex-flow: row wrap;
-    width: 100%;
-  }
-.flexR {
-    flex-direction: row;
-    flex-wrap: nowrap;
-}
-.flexC {
-    display: flex;
-    flex-direction: column;
-}
-.grid33 {
-    width: 33%;
-}
-.grid66 {
-    width: 66%;
-}
-.grid99 {
-    width: 99%;
 }
 .alignL {
   text-align: left;
