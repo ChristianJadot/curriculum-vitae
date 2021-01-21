@@ -7,4 +7,5 @@ J'ai voulu, au départ, créer une page avec Flex, mais je me suis un peu perdu,
 
 Voilà, je sais aussi qu'il y a des balises "div", mais j'ai fait en sorte d'englober celles-ci dans des balises "main" ou "section" pour rester dans le demande. Je verrai aussi comment il est possible de se passer de ces balises "div" même quand elles sont en quantité...
 
-Merci pour la compréhension de ma démarche, Christian
+Merci pour la compréhension de ma démarche,
+Christian
