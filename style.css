@@ -3,7 +3,7 @@
 body {
     font-family: 'Rajdhani', sans-serif;
     background-color: black;
-    text-align: center;
+    /*text-align: center;*/
     color: white;
 }
 header {
@@ -14,10 +14,63 @@ header {
 }
 main  {
     width: 60%;
-    background-color: white;
     margin: 20px auto;
-    display: flex;
   }
+header section h1  {
+    line-height: 0.6em;
+}
+main section h3 {
+    line-height: 0.6em;
+    margin: 0;
+    background-color: royalblue;
+}
+main section p {
+  margin: 6px 0;
+}
+main section ul {
+  margin: 0;
+  margin-left: 10px;
+  font-size: 0.9em;
+  font-style: italic;
+  line-height: 1.2em;
+  list-style: none;
+}
+main section ul li::before {
+  content: "\25AA";
+  font-size: 1.1em;
+  color: royalblue;
+  display: inline-block;
+  width: 0.8em;
+  margin-left: -1em;
+}
+section {
+
+}
+.container {
+    width: 60%;
+    margin: auto;
+}
+.conteneur {
+    width: 60%;
+    margin: auto;
+}
+.element1 {
+    background-color: rgb(41, 64, 192);
+}
+.element2 {
+    background-color: rgb(16, 167, 41);
+}
+.element3 {
+    background-color: rgb(170, 12, 104);
+}
+.left {
+    display: block;
+    float: left;
+}
+.right {
+    display: block;
+    float: right;
+}
 .photo {
     width: 200px;
 }
@@ -31,6 +84,7 @@ main  {
     flex-wrap: nowrap;
 }
 .flexC {
+    display: flex;
     flex-direction: column;
 }
 .grid33 {
